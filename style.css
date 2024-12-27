@@ -1,0 +1,43 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+section .passToggle{
+    max-width: 500px;
+    position: relative;
+}
+section input{
+    margin: 10px;
+    height: 30px;
+    outline: none;
+    width: 300px;
+    padding: 0 14px;
+    border-radius: 20px;
+    outline: none;
+    
+}
+section button.eyeBtn{
+    position: absolute;
+    right:  90px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+section button.submit{
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #000;
+    transition: 300ms;
+    padding: 10px;
+}
+section button.submit:hover{
+    color: white;
+    background: #000;
+
+}
